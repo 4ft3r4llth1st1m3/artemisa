@@ -30,39 +30,9 @@
             padding-bottom: 10px;
             margin-bottom: 20px;
         }
-        .tab-container {
-            overflow: hidden;
-            border: 1px solid #ccc;
-            background-color: #f1f1f1;
-            margin-bottom: 20px;
-            border-radius: 5px;
-        }
-        .tab-button {
-            background-color: inherit;
-            float: left;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            padding: 14px 16px;
-            transition: 0.3s;
-            font-size: 17px;
-        }
-        .tab-button:hover {
-            background-color: #ddd;
-        }
-        .tab-button.active {
-            background-color: #ccc;
-        }
-        .tab-content {
-            display: none;
-            padding: 6px 12px;
-            border: 1px solid #ccc;
-            border-top: none;
-            animation: fadeEffect 1s;
-        }
-        @keyframes fadeEffect {
-            from {opacity: 0;}
-            to {opacity: 1;}
+        .section-separator {
+            border-top: 2px solid #3498db;
+            margin: 40px 0;
         }
         ul {
             list-style-type: none;
@@ -78,12 +48,13 @@
         a:hover {
             text-decoration: underline;
         }
-        .highlight {
-            background-color: #fcf8e3;
-            border-left: 5px solid #f0ad4e;
-            padding: 15px;
-            margin-top: 20px;
+        .language-header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 5px;
             margin-bottom: 20px;
+            text-align: center;
         }
     </style>
 </head>
@@ -92,14 +63,11 @@
 <div class="container">
     <h1>Términos y Condiciones de Artemisa</h1>
 
-    <div class="tab-container">
-        <button class="tab-button" onclick="openTab(event, 'spanish')">Español</button>
-        <button class="tab-button" onclick="openTab(event, 'english')">English</button>
-        <button class="tab-button" onclick="openTab(event, 'portuguese')">Português</button>
-    </div>
-
-    <div id="spanish" class="tab-content">
-        <h2>Términos y Condiciones de Artemisa</h2>
+    <div class="language-section">
+        <div class="language-header">
+            <h2>Español</h2>
+        </div>
+        
         <p><strong>Última actualización: 05-09-2023</strong></p>
         <p>Bienvenido(a) a Artemisa, un servicio proporcionado por Matt. Estos términos y condiciones de uso ("Términos") establecen los derechos y obligaciones legales entre usted y Artemisa (en adelante, "Nosotros" o "Artemisa") con respecto al uso de nuestros servicios. Al utilizar nuestros servicios, usted acepta estar sujeto a estos Términos en su totalidad. Si no está de acuerdo con alguno de estos términos, le solicitamos que se abstenga de utilizar nuestros servicios.</p>
         
@@ -107,4 +75,244 @@
         <ul>
             <li>“Servicio” se refiere a la aplicación Artemisa y todos los servicios relacionados proporcionados por Matt.</li>
             <li>"Usuario" se refiere a cualquier persona que acceda y utilice el Servicio de Artemisa.</li>
-            <li>"Contenido del Usuario" se
+            <li>"Contenido del Usuario" se refiere a cualquier información, texto, gráficos, videos u otro material que el Usuario envíe o comparta a través del Servicio.</li>
+            <li>"Créditos" se refiere a las monedas virtuales o monedas utilizadas dentro del Servicio para realizar transacciones o adquirir ítems virtuales.</li>
+            <li>"Ítems virtuales" se refiere a los objetos o premios virtuales que se pueden ganar, obtener o adquirir dentro del Servicio.</li>
+            <li>"Matt" se refiere a los propietarios y operadores de Artemisa.</li>
+        </ul>
+        
+        <h3>Condiciones de Uso</h3>
+        <p>Te comprometes a no participar en ningún uso no autorizado del servicio, lo cual incluye, pero no se limita a:</p>
+        <ul>
+            <li>Violar cualquier ley o regulación aplicable.</li>
+            <li>Interferir o interrumpir el servicio, los servidores o las redes conectadas al servicio.</li>
+            <li>Modificar, adaptar, traducir o realizar ingeniería inversa de cualquier parte del servicio.</li>
+            <li>Intentar obtener acceso no autorizado al servicio o a sus sistemas o redes relacionadas.</li>
+            <li>Utilizar el servicio con fines ilegales o no autorizados.</li>
+            <li>Hostigar, abusar o perjudicar a otros, incluyendo a menores de edad, de cualquier manera.</li>
+            <li>Cargar o transmitir virus, malware o cualquier otro código malicioso.</li>
+            <li>Recopilar o almacenar información personal de otros usuarios sin su consentimiento.</li>
+        </ul>
+        
+        <h3>Reglamento del Bot</h3>
+        <p>Al usar nuestro servicio, debes cumplir con todas las leyes, reglas y regulaciones de la jurisdicción en que resides. También debes cumplir con las reglas de comportamiento que se enumeran más adelante (colectivamente, el “Reglamento del Bot”). Las reglas de esta sección no pretenden ser exhaustivas, y nos reservamos el derecho a modificarlas, así como a tomar las medidas disciplinarias adecuadas, incluyendo bloqueos temporales, bloqueos permanentes y eliminación de datos para proteger la integridad y el espíritu de Artemisa, independientemente de si un comportamiento específico se considera inapropiado en el Reglamento del Bot.</p>
+        <p>Los siguiente son ejemplos de comportamiento que justifican medidas disciplinarias:</p>
+        <ol>
+            <li>Uso de cuentas alternativas (smurfs) para obtener ventajas injustas en nuestros servicios.</li>
+            <li>Cobrar dinero real, nitros, pases de juegos u otros elementos ajenos por coins, ítems o cualquier servicio relacionado con Artemisa.</li>
+            <li>Utilizar comandos de economía en la cuenta de otra persona.</li>
+            <li>Utilizar cualquier programa no autorizado de terceros, incluidos macros, secuencias de comandos (scripts) o programas de automatización para obtener ventajas en nuestros servicios.</li>
+            <li>Envío masivo y repetitivo de comandos (spam de comandos).</li>
+            <li>Abusar de vulnerabilidades (exploits) o errores (bugs).</li>
+            <li>Clonación del servidor de soporte.</li>
+            <li>Actitudes racistas, homofóbicas, sexistas o insultantes a través del uso de nuestros servicios.</li>
+            <li>Iniciar rumores o causar conflictos innecesarios relacionados con Artemisa o sus miembros, incluyendo acosar, acechar o amenazar a los encargados del servicio.</li>
+            <li>Uso de recordatorios automáticos no autorizados o provenientes de otros bots que interfieran con la economía de Artemisa.</li>
+        </ol>
+        
+        <h3>Protección de Contenido</h3>
+        <p>Está terminantemente prohibido el robo o la extracción no autorizada del contenido de nuestro CDN (Content Delivery Network). Esto incluye cualquier intento de obtener información, ya sea de forma manual o automatizada, sin el permiso expreso del propietario del contenido. El incumplimiento de esta prohibición puede tener consecuencias legales.</p>
+        
+        <h3>Contenido del Usuario</h3>
+        <p>El Servicio puede permitirte publicar, enlazar, almacenar, compartir y poner a disposición cierta información, texto, gráficos, videos u otro material ("Contenido del Usuario"). Eres el único responsable del Contenido del Usuario que envíes al Servicio. Al enviar Contenido del Usuario, otorgas a Artemisa una licencia mundial, no exclusiva, libre de regalías, sublicenciable y transferible para utilizar, reproducir, distribuir, preparar obras derivadas, mostrar y ejecutar el Contenido del Usuario en relación con el Servicio. Declaras y garantizas que posees o tienes los derechos y permisos necesarios para otorgar la licencia mencionada con anterioridad a Artemisa. También aceptas no enviar ningún Contenido del Usuario que viole los derechos de terceros o infrinja derechos de propiedad intelectual.</p>
+        
+        <h3>Items virtuales y jugabilidad</h3>
+        <p>Al utilizar nuestros servicios, es posible que gane, obtenga o adquiera créditos (también conocidos como "coins" o "monedas") y premios (también conocidos como "ítems" u "objetos") virtuales. Estos créditos y premios pueden ser obtenidos de manera gratuita o adquiridos a través de transacciones dentro de nuestros servicios utilizando dinero real. Es importante destacar que, aunque adquiera dichos ítems virtuales y se reflejen en su cuenta, estos siguen siendo propiedad de Matt (propietarios de Artemisa) y, en consecuencia, pueden ser retirados de su cuenta sin previo aviso si así lo requerimos.</p>
+        
+        <h3>Disponibilidad, Errores e Inexactitudes</h3>
+        <p>En Artemisa, nos esforzamos constantemente por actualizar el Servicio. Sin embargo, puede haber demoras en la actualización de la información en el Servicio y en nuestra publicidad en otros sitios web. La información encontrada en el Servicio puede contener errores o inexactitudes y es posible que no esté completa o actualizada. Los productos o servicios pueden tener un precio incorrecto, describirse de manera inexacta o no estar disponibles en el Servicio, y no podemos garantizar la exactitud o integridad de cualquier información encontrada en el Servicio. Por lo tanto, nos reservamos el derecho de cambiar o actualizar la información, así como corregir errores, inexactitudes u omisiones en cualquier momento y sin previo aviso.</p>
+        
+        <h3>Enlaces a sitios web de terceros</h3>
+        <p>El Servicio puede contener enlaces a sitios web de terceros o recursos externos que no son propiedad ni están controlados por Artemisa. Al proporcionar estos enlaces, no respaldamos ni asumimos ninguna responsabilidad por el contenido, productos, servicios o prácticas de privacidad de dichos sitios web de terceros. Le recomendamos encarecidamente que revise las políticas de privacidad y los términos de uso de cualquier sitio web de terceros al que acceda a través de nuestro Servicio. Usted reconoce y acepta que Artemisa no será responsable, directa o indirectamente, por cualquier daño o pérdida causada o supuestamente causada por o en conexión con el uso o la confianza en cualquier contenido, bienes o servicios disponibles en o a través de cualquier sitio web de terceros. Le instamos a ejercer precaución y a leer los términos y condiciones y las políticas de privacidad de cualquier sitio web de terceros que visite. Es importante tener en cuenta que su interacción con cualquier sitio web de terceros está sujeta a los términos y condiciones específicos de ese sitio web, y Artemisa no tiene control sobre dichos términos y condiciones.</p>
+        
+        <h3>Terminación</h3>
+        <p>Podemos dar por terminado o suspender su acceso al Servicio de manera inmediata, sin previo aviso ni responsabilidad, a nuestra entera discreción, por cualquier motivo y sin limitación, incluyendo, entre otros, el incumplimiento de los Términos. Todas las disposiciones de los Términos que, por su naturaleza, deban sobrevivir a la terminación, sobrevivirán a la terminación, incluyendo, entre otros, las disposiciones de propiedad, las exenciones de garantía, la indemnización y las limitaciones de responsabilidad. Una vez que se produzca la terminación, su derecho de usar el Servicio cesará de manera inmediata.</p>
+        
+        <h3>Indemnización</h3>
+        <p>Aceptas indemnizar y eximir de responsabilidad a Artemisa, sus propietarios Matt, de cualquier reclamo, demanda, responsabilidad o gastos (incluidos los honorarios de abogados) realizados por cualquier tercero debido a tu incumplimiento de estos Términos o tu violación de cualquier ley o derecho de terceros.</p>
+        
+        <h3>Descargo de responsabilidad</h3>
+        <p>Su uso del Servicio se realiza bajo su propio riesgo. El Servicio se proporciona "TAL CUAL" y "SEGÚN DISPONIBILIDAD". El Servicio se proporciona sin garantías de ningún tipo, ya sean expresas o implícitas, incluyendo, pero no limitándose a, garantías implícitas de comerciabilidad, idoneidad para un propósito particular, no infracción o cumplimiento de rendimiento. Artemisa no garantiza que a) el Servicio funcionará de manera ininterrumpida, segura o estará disponible en un momento o ubicación particular; b) se corregirán los errores o defectos; c) el Servicio estará libre de virus u otros componentes dañinos; o d) los resultados del uso del Servicio satisfarán sus requisitos.</p>
+        
+        <h3>Exclusiones</h3>
+        <p>Algunas jurisdicciones no permiten la exclusión de ciertas garantías o la exclusión o limitación de la responsabilidad por daños consecuenciales o incidentales, por lo que las restricciones anteriores pueden no aplicarse en su caso.</p>
+        
+        <h3>Cambios</h3>
+        <p>A nuestra entera discreción, nos reservamos el derecho de modificar o sustituir estas Condiciones en cualquier momento. Si una revisión es material, le avisaremos con al menos 30 días de antelación antes de que los nuevos términos entren en vigor. Lo que constituye un cambio material se determinará a nuestra entera discreción. Al continuar accediendo o utilizando nuestro Servicio después de que cualquier revisión entre en vigor, usted acepta estar obligado por los términos revisados. No podrá seguir utilizando el Servicio si no acepta las nuevas condiciones.</p>
+        
+        <h3>Contacto y Soporte</h3>
+        <p>Nuestra prioridad es brindarle un excelente servicio y soporte. Si tiene alguna pregunta, inquietud o necesita asistencia, puede comunicarse con nosotros a través de los siguientes canales:</p>
+        <ul>
+            <li><strong>Correo Electrónico:</strong> Puede enviarnos un correo electrónico a support@artemisa.com. Nuestro equipo de soporte estará encantado de ayudarle y responder a sus consultas en el menor tiempo posible.</li>
+            <li><strong>Servidor de Soporte:</strong> También puede unirse a nuestro servidor de soporte en Discord, donde encontrará una comunidad amigable y un equipo de soporte dedicado. Aquí podrá hacer preguntas, obtener asistencia y mantenerse actualizado sobre las últimas novedades de Artemisa. Puede unirse a nuestro servidor de soporte haciendo clic en el siguiente enlace: <a href="https://discord.gg/artemisa" target="_blank">https://discord.gg/artemisa</a></li>
+        </ul>
+        <p>Tenga en cuenta que el equipo de soporte de Artemisa se esfuerza por brindar una atención oportuna y eficiente a todos nuestros usuarios. Sin embargo, le pedimos paciencia en caso de que haya un aumento en el volumen de consultas, ya que esto puede afectar los tiempos de respuesta. Estamos aquí para ayudarle y asegurarnos de que su experiencia con Artemisa sea satisfactoria. No dude en contactarnos si necesita asistencia adicional.</p>
+    </div>
+
+    <hr class="section-separator">
+
+    <div class="language-section">
+        <div class="language-header">
+            <h2>English</h2>
+        </div>
+        <p><strong>Last updated: September 5, 2023</strong></p>
+        <p>Welcome to Artemisa, a service provided by Matt. These terms and conditions of use ("Terms") establish the legal rights and obligations between you and Artemisa ("We" or "Artemisa") regarding the use of our services. By using our services, you agree to be bound by these Terms in their entirety. If you do not agree to any of these terms, please refrain from using our services.</p>
+        
+        <h3>Definitions</h3>
+        <ul>
+            <li>"Service" refers to the Artemisa application and all related services provided by Matt.</li>
+            <li>"User" refers to any individual who accesses and uses the Artemisa Service.</li>
+            <li>"User Content" refers to any information, text, graphics, videos, or other materials that the User submits or shares through the Service.</li>
+            <li>"Credits" refers to the virtual currency or coins used within the Service to carry out transactions or acquire virtual items.</li>
+            <li>"Virtual Items" refers to the virtual objects or prizes that can be earned, obtained, or acquired within the Service.</li>
+            <li>"Matt" refers to the owner and operator of Artemisa.</li>
+        </ul>
+        
+        <h3>Use of the Service</h3>
+        <p>You agree not to engage in any unauthorized use of the Service, including but not limited to:</p>
+        <ul>
+            <li>Violating any applicable laws or regulations.</li>
+            <li>Interfering with or disrupting the Service or servers or networks connected to the Service.</li>
+            <li>Modifying, adapting, translating, or reverse engineering any portion of the Service.</li>
+            <li>Attempting to gain unauthorized access to the Service or its related systems or networks.</li>
+            <li>Using the Service for any illegal or unauthorized purpose.</li>
+            <li>Harassing, abusing, or harming others, including minors, in any way.</li>
+            <li>Uploading or transmitting any viruses, malware, or any other malicious code.</li>
+            <li>Collecting or storing personal information from other users without their consent.</li>
+        </ul>
+        
+        <h3>Bot Rules</h3>
+        <p>When using our service, you must comply with all laws, rules, and regulations of the jurisdiction in which you reside. You must also adhere to the behavioral rules listed below (collectively, the "Bot Rules"). The rules in this section are not intended to be exhaustive, and we reserve the right to modify them, as well as to take appropriate disciplinary measures, including temporary suspensions, permanent bans, and data removal, to protect the integrity and spirit of Artemisa, regardless of whether specific behavior is deemed inappropriate under the Bot Rules.</p>
+        <p>The following are examples of behavior that warrant disciplinary action:</p>
+        <ol>
+            <li>Using alternate accounts (smurfs) to gain unfair advantages in our services.</li>
+            <li>Charging real money, nitros, game passes, or other external items for coins, items, or any Artemisa-related service.</li>
+            <li>Using economy commands on another person's account.</li>
+            <li>Using any unauthorized third-party programs, including macros, scripts, or automation software to gain advantages in our services.</li>
+            <li>Mass and repetitive command spamming.</li>
+            <li>Abusing vulnerabilities (exploits) or bugs.</li>
+            <li>Cloning the support server.</li>
+            <li>Displaying racist, homophobic, sexist, or insulting attitudes through the use of our services.</li>
+            <li>Initiating rumors or causing unnecessary conflicts related to Artemisa or its members, including harassing, stalking, or threatening service staff.</li>
+            <li>Using unauthorized automatic reminders or reminders from other bots that interfere with Artemisa's economy.</li>
+        </ol>
+        
+        <h3>Content Protection</h3>
+        <p>Theft or unauthorized extraction of content from our CDN (Content Delivery Network) is strictly prohibited. This includes any attempt to obtain information, whether manually or automated, without the explicit permission of the content owner. Failure to comply with this prohibition may result in legal consequences.</p>
+        
+        <h3>User Content</h3>
+        <p>The Service may allow you to post, link, store, share, and otherwise make available certain information, text, graphics, videos, or other material ("User Content"). You are solely responsible for the User Content you submit to the Service. By submitting User Content, you grant Artemisa a worldwide, non-exclusive, royalty-free, sublicensable, and transferable license to use, reproduce, distribute, prepare derivative works of, display, and perform the User Content in connection with the Service. You represent and warrant that you own or have the necessary rights and permissions to grant the above license to Artemisa. You also agree not to submit any User Content that violates any third-party rights or infringes upon any intellectual property rights.</p>
+        
+        <h3>Virtual Items and Gameplay</h3>
+        <p>By using our services, you may earn, obtain, or acquire credits (also known as "coins") and virtual rewards (also known as "items"). These credits and rewards can be obtained for free or acquired through transactions within our services using real money. It is important to note that even if you acquire these virtual items and they are reflected in your account, they remain the property of Matt (owner of Artemisa) and, as such, may be removed from your account without prior notice if required.</p>
+        
+        <h3>Availability, Errors, and Inaccuracies</h3>
+        <p>At Artemisa, we strive to constantly update the Service. However, there may be delays in updating information on the Service and in our advertising on other websites. The information found on the Service may contain errors or inaccuracies and may not be complete or up-to-date. Products or services may have incorrect pricing, be inaccurately described, or be unavailable on the Service, and we cannot guarantee the accuracy or completeness of any information found on the Service. Therefore, we reserve the right to change or update information, as well as to correct errors, inaccuracies, or omissions at any time and without prior notice.</p>
+        
+        <h3>Links to Third-Party Websites</h3>
+        <p>The Service may contain links to third-party websites or external resources that are not owned or controlled by Artemisa. By providing these links, we do not endorse or assume any responsibility for the content, products, services, or privacy practices of such third-party websites. We strongly recommend that you review the privacy policies and terms of use of any third-party website you access through our Service. You acknowledge and agree that Artemisa shall not be responsible, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any content, goods, or services available on or through any third-party websites. We urge you to exercise caution and to read the terms and conditions and privacy policies of any third-party website you visit. It is important to note that your interaction with any third-party website is subject to the specific terms and conditions of that website, and Artemisa has no control over such terms and conditions.</p>
+        
+        <h3>Termination</h3>
+        <p>We may terminate or suspend your access to the Service immediately, without prior notice or liability, at our sole discretion, for any reason and without limitation, including, but not limited to, the breach of the Terms. All provisions of the Terms that by their nature should survive termination shall survive termination, including, but not limited to, the provisions regarding ownership, warranty disclaimers, indemnity, and limitations of liability. Upon termination, your right to use the Service will cease immediately.</p>
+        
+        <h3>Indemnification</h3>
+        <p>You agree to defend, indemnify and hold harmless Artemisa, its owner Matt, from and against all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including but not limited to attorney's fees), resulting from or arising out of a) your use and access of the Service, or b) a breach of these Terms.</p>
+        
+        <h3>Disclaimer</h3>
+        <p>Your use of the Service is at your own risk. The Service is provided on an "AS IS" and "AS AVAILABLE" basis. The Service is provided without warranties of any kind, whether express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement, or performance. Artemisa does not warrant that a) the Service will function uninterrupted, secure, or available at any particular time or location; b) any errors or defects will be corrected; c) the Service will be free of viruses or other harmful components; or d) the results of using the Service will meet your requirements.</p>
+        
+        <h3>Exclusions</h3>
+        <p>Some jurisdictions do not allow the exclusion of certain warranties or the exclusion or limitation of liability for consequential or incidental damages, so the restrictions above may not apply to you.</p>
+        
+        <h3>Changes</h3>
+        <p>At our sole discretion, we reserve the right to modify or replace these Terms at any time. If a revision is material, we will provide at least 30 days' notice before any new terms take effect. What constitutes a material change will be determined at our sole discretion. By continuing to access or use our Service after any revisions become effective, you agree to be bound by the revised terms. You can no longer use the Service if you do not agree to the new terms.</p>
+        
+        <h3>Contacto y Soporte</h3>
+        <p>Our priority is to provide you with excellent service and support. If you have any questions, concerns, or need assistance, you can contact us through the following channels:</p>
+        <ul>
+            <li><strong>Email:</strong> You can email us at support@artemisa.com. Our support team will be delighted to assist you and respond to your inquiries as soon as possible.</li>
+            <li><strong>Support Server:</strong> You can also join our support server on Discord, where you will find a friendly community and a dedicated support team. Here, you can ask questions, get assistance, and stay updated on the latest Artemisa news. You can join our support server by clicking the following link: <a href="https://discord.gg/artemisa" target="_blank">https://discord.gg/artemisa</a></li>
+        </ul>
+        <p>Please note that the Artemisa support team strives to provide timely and efficient assistance to all our users. However, we ask for your patience in case there is an increase in the volume of inquiries, as this may affect response times. We are here to assist you and ensure that your experience with Artemisa is satisfactory. Please do not hesitate to contact us if you need further assistance.</p>
+    </div>
+
+    <hr class="section-separator">
+
+    <div class="language-section">
+        <div class="language-header">
+            <h2>Português</h2>
+        </div>
+        <p><strong>Última atualização: 05-09-2023</strong></p>
+        <p>Bem-vindo(a) à Artemisa, um serviço fornecido por Matt. Estes termos e condições de uso ("Termos") estabelecem os direitos e obrigações legais entre você e a Artemisa (doravante "Nós" ou "Artemisa") em relação ao uso de nossos serviços. Ao utilizar nossos serviços, você concorda em estar sujeito a estes Termos em sua totalidade. Se você não concorda com algum desses termos, solicitamos que se abstenha de utilizar nossos serviços.</p>
+        
+        <h3>Condições de Uso</h3>
+        <p>Compromete-se a não participar de qualquer uso não autorizado do serviço, o que inclui, mas não se limita a:</p>
+        <ul>
+            <li>Violar qualquer lei ou regulamento aplicável.</li>
+            <li>Interferir ou interromper o serviço, servidores ou redes conectadas ao serviço.</li>
+            <li>Modificar, adaptar, traduzir ou fazer engenharia reversa de qualquer parte do serviço.</li>
+            <li>Tentar obter acesso não autorizado ao serviço ou a seus sistemas ou redes relacionadas.</li>
+            <li>Utilizar o serviço para fins ilegais ou não autorizados.</li>
+            <li>Assediar, abusar ou prejudicar outras pessoas, incluindo menores de idade, de qualquer forma.</li>
+            <li>Carregar ou transmitir vírus, malware ou qualquer outro código malicioso.</li>
+            <li>Coletar ou armazenar informações pessoais de outros usuários sem o consentimento deles.</li>
+        </ul>
+        
+        <h3>Regulamento do Bot</h3>
+        <p>Ao utilizar o nosso serviço, deve cumprir todas as leis, regras e regulamentos da jurisdição em que reside. Deve também aderir às regras de comportamento listadas abaixo (coletivamente, o "Regulamento do Bot"). As regras desta secção não pretendem ser exaustivas, e reservamo-nos o direito de as modificar, bem como de tomar medidas disciplinares apropriadas, incluindo suspensões temporárias, proibições permanentes e remoção de dados, para proteger a integridade e o espírito da Artemisa, independentemente de se considerar um comportamento específico como inadequado no Regulamento do Bot.</p>
+        <p>Os seguintes são exemplos de comportamento que justificam ação disciplinar:</p>
+        <ol>
+            <li>Utilizar contas alternativas (smurfs) para obter vantagens injustas nos nossos serviços.</li>
+            <li>Cobrar dinheiro real, nitros, passes de jogos ou outros itens externos por moedas, itens ou qualquer serviço relacionado com a Artemisa.</li>
+            <li>Utilizar comandos de economia na conta de outra pessoa.</li>
+            <li>Utilizar programas de terceiros não autorizados, incluindo macros, scripts ou software de automação para obter vantagens nos nossos serviços.</li>
+            <li>Spam em massa e repetitivo de comandos.</li>
+            <li>Abusar de vulnerabilidades (exploits) ou erros (bugs).</li>
+            <li>Clonar o servidor de suporte.</li>
+            <li>Exibir atitudes racistas, homofóbicas, sexistas ou insultuosas através do uso dos nossos serviços.</li>
+            <li>Iniciar rumores ou causar conflitos desnecessários relacionados com a Artemisa ou seus membros, incluindo assédio, perseguição ou ameaças à equipe de suporte.</li>
+            <li>Utilizar lembretes automáticos não autorizados ou lembretes de outros bots que interfiram na economia da Artemisa.</li>
+        </ol>
+        
+        <h3>Proteção de Conteúdo</h3>
+        <p>É estritamente proibido o roubo ou extração não autorizada do conteúdo de nossa CDN (Rede de Distribuição de Conteúdo). Isso inclui qualquer tentativa de obter informações, seja manualmente ou por meio de automação, sem a permissão expressa do proprietário do conteúdo. O não cumprimento desta proibição pode ter consequências legais.</p>
+        
+        <h3>Conteúdo do Usuário</h3>
+        <p>O Serviço pode permitir que você poste, vincule, armazene, compartilhe e disponibilize certas informações, texto, gráficos, vídeos ou outros materiais ("Contenido del Usuario"). Você é o único responsável pelo Conteúdo do Usuário que envia para o Serviço. Ao enviar o Conteúdo do Usuário, você concede à Artemisa uma licença mundial, não exclusiva, isenta de royalties, sublicenciável e transferível para usar, reproduzir, distribuir, preparar obras derivadas, exibir e executar o Conteúdo do Usuário em relação ao Serviço. Você declara e garante que possui ou tem as permissões e direitos necessários para conceder a licença mencionada acima à Artemisa. Você também concorda em não enviar nenhum Contenido do Usuário que viole os direitos de terceiros ou infrinja direitos de propriedade intelectual.</p>
+        
+        <h3>Itens virtuais e jogabilidade</h3>
+        <p>Ao utilizar nossos serviços, você pode ganhar, obter ou adquirir créditos (também conhecidos como "coins" ou "moedas") e prêmios (também conhecidos como "itens" ou "objetos") virtuais. Esses créditos e prêmios podem ser obtidos gratuitamente ou adquiridos por meio de transações dentro de nossos serviços usando dinheiro real. É importante destacar que, embora você adquira esses itens virtuais e eles sejam refletidos em sua conta, eles continuam sendo propriedade de Matt (proprietário da Artemisa) e, portanto, podem ser retirados de sua conta sem aviso prévio, se necessário.</p>
+        
+        <h3>Disponibilidade, Erros e Inexatidões</h3>
+        <p>Na Artemisa, nos esforçamos constantemente para atualizar o Serviço. No entanto, pode haver atrasos na atualização das informações no Serviço e em nossa publicidade em outros sites. As informações encontradas no Serviço podem conter erros ou imprecisões e podem não estar completas ou atualizadas. Os produtos ou serviços podem ter um preço incorreto, ser descritos de forma imprecisa ou não estar disponíveis no Serviço, e não podemos garantir a precisão ou integridade de qualquer informação encontrada no Serviço. Portanto, reservamo-nos o direito de alterar ou atualizar as informações, bem como corrigir erros, imprecisões ou omissões a qualquer momento e sem aviso prévio.</p>
+        
+        <h3>Links para sites de terceiros</h3>
+        <p>O Serviço pode conter links para sites de terceiros ou recursos externos que não são de propriedade nem são controlados pela Artemisa. Ao fornecer esses links, não endossamos nem assumimos qualquer responsabilidade pelo conteúdo, produtos, serviços ou práticas de privacidade desses sites de terceiros. Recomendamos enfaticamente que você revise as políticas de privacidade e os termos de uso de qualquer site de terceiros que você acesse por meio de nosso Serviço. Você reconhece e concorda que a Artemisa não será responsável, direta ou indiretamente, por qualquer dano ou perda causada ou supostamente causada pelo uso ou confiança em qualquer conteúdo, bens ou serviços disponíveis em ou por meio de qualquer site de terceiros. Instamos você a ter cuidado e ler os termos e condições e as políticas de privacidade de qualquer site de terceiros que você visite. É importante observar que sua interação com qualquer site de terceiros está sujeita aos termos e condições específicos desse site, e a Artemisa não tem control sobre dichos términos y condiciones.</p>
+        
+        <h3>Término</h3>
+        <p>Podemos encerrar ou suspender seu acesso ao Serviço imediatamente, sem aviso prévio ou responsabilidade, a nosso exclusivo critério, por qualquer motivo e sem limitação, incluindo, entre outros, violações destes Termos. Todas as disposições dos Termos que, por sua natureza, devam sobreviver ao término, sobreviverão ao término, incluindo, entre outros, as disposições de propriedade, isenções de garantia, indenização e limitações de responsabilidade. Após a terminação, o seu direito de utilizar o Serviço cessará imediatamente.</p>
+        
+        <h3>Indenização</h3>
+        <p>Você concorda em indenizar e isentar a Artemisa, seu proprietário Matt, de qualquer reclamação, demanda, responsabilidade ou despesa (incluindo honorários advocatícios) feita por qualquer terceiro devido ao seu descumprimento destes Termos ou violação de qualquer lei ou direito de terceiros.</p>
+        
+        <h3>Isenção de responsabilidade</h3>
+        <p>O uso do Serviço é por sua própria conta e risco. O Serviço é fornecido "COMO ESTÁ" e "CONFORME DISPONÍVEL". O Serviço é fornecido sem garantias de qualquer tipo, expressas ou implícitas, incluindo, mas não se limitando a, garantias implícitas de comercialização, adequação a um propósito específico, não violação ou desempenho. A Artemisa não garante que a) o Serviço funcionará de forma ininterrupta, segura ou estará disponível em determinado momento ou local; b) erros ou defeitos serão corrigidos; c) o Serviço estará livre de vírus ou outros componentes prejudiciais; ou d) os resultados do uso do Serviço atenderão aos seus requisitos.</p>
+        
+        <h3>Exclusões</h3>
+        <p>Algumas jurisdições não permitem a exclusão de determinadas garantias ou a exclusão ou limitação de responsabilidade por danos consequenciais ou incidentais, portanto, as restrições acima podem não se aplicar a você.</p>
+        
+        <h3>Alterações</h3>
+        <p>A nosso exclusivo critério, reservamo-nos o direito de modificar ou substituir estes Termos a qualquer momento. Se uma revisão for material, forneceremos aviso com pelo menos 30 dias de antecedência antes que os novos termos entrem em vigor. O que constitui uma alteração material será determinado a nosso exclusivo critério. Ao continuar a acessar ou usar nosso Serviço após qualquer revisão entrar em vigor, você concorda em ficar vinculado pelos termos revisados. Você não poderá continuar usando o Serviço se não concordar com os novos termos.</p>
+        
+        <h3>Contato e Suporte</h3>
+        <p>Nossa prioridade é fornecer um excelente serviço e suporte. Se você tiver alguma dúvida, preocupação ou precisar de assistência, pode entrar em contato conosco por meio dos seguintes canais:</p>
+        <ul>
+            <li><strong>E-mail:</strong> Você pode nos enviar um e-mail para support@artemisa.com. Nossa equipe de suporte terá prazer em ajudá-lo e responder às suas perguntas o mais rápido possível.</li>
+            <li><strong>Servidor de Suporte:</strong> Você também pode entrar em nosso servidor de suporte no Discord, onde encontrará uma comunidade amigável e uma equipe de suporte dedicada. Aqui, você pode fazer perguntas, obter assistência e se manter atualizado sobre as últimas novidades da Artemisa. Você pode ingressar em nosso servidor de suporte clicando no seguinte link: <a href="https://discord.gg/artemisa" target="_blank">https://discord.gg/artemisa</a></li>
+        </ul>
+        <p>Observe que a equipe de suporte da Artemisa se esforça para fornecer atendimento oportuno e eficiente a todos os nossos usuários. No entanto, pedimos paciência caso haja um aumento no volume de consultas, pois isso pode afetar os tempos de resposta. Estamos aqui para ajudá-lo y garantizar que su experiencia con la Artemisa sea satisfactoria. Não hesite em entrar em contato se precisar de assistência adicional.</p>
+    </div>
+</div>
+
+</body>
+</html>
